@@ -11,6 +11,7 @@ body {
     font-size: 16px;
     margin: 0 auto;
     max-width: 800px;
+    padding: 0 10px;
 }
 
 b {
@@ -193,6 +194,32 @@ li {
     border: solid 8px;
     border-color: transparent transparent transparent #2a2bf8 ;
 }
+.kuai7 {
+    position: relative;
+//width: 150px;
+    background: #2a2bf8;
+    background: -moz-linear-gradient(left, #64ff0d 0%, #2a2bf8 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #64ff0d), color-stop(100%, #2a2bf8));
+    background: -webkit-linear-gradient(left, #64ff0d 0%, #2a2bf8 100%);
+    background: -o-linear-gradient(left, #64ff0d 0%, #2a2bf8 100%);
+    background: -ms-linear-gradient(left, #64ff0d 0%, #2a2bf8 100%);
+    background: linear-gradient(to right, #64ff0d 0%, #2a2bf8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#64ff0d', endColorstr='#2a2bf8',GradientType=1 );
+    border-radius: 100%; /* 圆角 */
+    display:inline-block;
+    margin: 16px;
+}
+
+.kuai7 .jiao7 {
+    position: absolute;
+    top: 15px;
+    right: -16px; /* 圆角的位置需要细心调试哦 */
+    width: 0;
+    height: 0;
+    font-size: 0;
+    border: solid 8px;
+    border-color: transparent transparent transparent #2a2bf8 ;
+}
 .send .a1{
 
 }
@@ -208,8 +235,8 @@ ul li .a1 {
 #icon-work{
     position: relative;
     width: 20px;
-    height: 17px;
-    fill: #f84407;
+    height: 15px;
+    fill: #932afc;
     top: 2px;
 }
 
@@ -217,7 +244,7 @@ ul li .a1 {
     position: relative;
     width: 24px;
     height: 24px;
-    fill: #f84407;
+    fill: #00d515;
     top: 5px;
 }
 #icon-education {
@@ -231,21 +258,21 @@ ul li .a1 {
     position: relative;
     width: 22px;
     height: 22px;
-    fill: #f84407;
+    fill: #07bff9;
     top: 5px;
 }
 #icon-evaluation{
     position: relative;
     width: 22px;
     height: 22px;
-    fill: #f84407;
+    fill: #0727f9;
     top: 5px;
 }
 #icon-Train{
     position: relative;
     width: 22px;
     height: 22px;
-    fill: #f84407;
+    fill: #910000;
     top: 5px;
 }
 
@@ -264,5 +291,3 @@ ul li .a1 {
         width: 100%;
     }
 }
-
-
